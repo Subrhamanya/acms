@@ -1,0 +1,156 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#container {
+    background: white;
+    box-shadow: 0.5px 0px 5px 1px rgba(0,0,0,0.3);
+}
+
+#top {
+    height: 6%;
+    background: #3F84B1;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+#head,.head {
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #3F84B1;
+}
+
+#head {
+    height: 7%;
+}
+
+#head h1 {
+    margin-left: 9%;
+    line-height: 16px;
+}
+
+#head span {
+    color: #34ad00;
+}
+
+.menu_bar {
+    height: 8%;
+    background: #34ad00;
+}
+
+.menu_bar ul {
+    list-style-type: none;
+    color: white;
+    line-height: 50px;
+    margin-left: 70px;
+}
+
+.menu_bar li {
+    display: inline;
+    font-size: 17px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.menu_bar li a {
+    padding:30px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_bar li a:hover {
+    color: #00fa00;
+}
+
+.image {
+    height: 450px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/agri.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 400px;
+    color: white;
+    font-size: 2.2em;
+}
+
+.main_box {
+    display: flex;
+    width: 80%;
+    min-height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    width: 33.33%;
+    height: 10%;
+    display: flex;
+}
+
+.images {
+    float: left;
+    font-size: 2em;
+    width: 25%;
+    color: #3F84B1;
+}
+
+.images_content {
+    width: 70%;
+    margin-top: 2%;
+    color: #505050;
+}
+
+.images_content h1 {
+    color: #34ad00;
+}
+
+.extra {
+    box-shadow: 0 1px 2px 3px rgba(0,0,0,0.1);
+}
+
+.footer {
+    height: 20%;
+    background: #34ad00;
+    color: white;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin-left: 39%;
+}
+
+.footer ul li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    border:3px solid white;
+}
+
+.footer ul li a {
+    color: white;
+}
+
+.wow {
+    visibility: hidden;
+}
+
+input {
+    border-style: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+select {
+    width: 200px;border-style: none;border-bottom: 1px solid black;outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
